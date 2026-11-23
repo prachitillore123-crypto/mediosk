@@ -5,7 +5,6 @@ service cloud.firestore {
     // ==========================================
     // GLOBAL REUSABLE FUNCTIONS & IDENTITY TIERS
     // ==========================================
-
     function isSignedIn() {
       return request.auth != null;
     }
